@@ -2,6 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 import data from '../Data/LowPrice.json'
 
 
+
 const initialState = {
     offerCategory: data.offerCategory || []
 }
